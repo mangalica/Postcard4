@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterMassageTextField: UITextField!
     @IBOutlet weak var sendMailButton: UIButton!
     // Dodatni komentar za testiranje GitHub-a
+    @IBOutlet weak var nameLabel: UILabel!
     
    
     
@@ -40,11 +41,21 @@ class ViewController: UIViewController {
         // Nakon pritiska na dugme Send Mail nestace uneseni tekst iz polja enterMassageTextField
         enterMassageTextField.text = ""
         
+        
         // Nakon sto pritisnemo dugme Send Mail tastatura ce nestati
         enterMassageTextField.resignFirstResponder()
         
         // Nakon sto pritisnemo dugme Send Mail ono ce promjeniti tekst i na njemu ce pisati Mail Sent
         sendMailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
+        
+        
+        nameLabel.hidden = false
+        nameLabel.textColor = UIColor.redColor()
+        nameLabel.backgroundColor = UIColor.blueColor()
+        nameLabel.text = enterNameTextField.text
+        enterNameTextField.text = ""
+        //nameLabel.resignFirstResponder()
+       
         
         
     }
