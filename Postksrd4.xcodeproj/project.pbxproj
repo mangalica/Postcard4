@@ -13,6 +13,8 @@
 		6F7C8C7C1ACA102C00478943 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C8C7B1ACA102C00478943 /* Images.xcassets */; };
 		6F7C8C7F1ACA102C00478943 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C8C7D1ACA102C00478943 /* LaunchScreen.xib */; };
 		6F7C8C8B1ACA102C00478943 /* Postksrd4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7C8C8A1ACA102C00478943 /* Postksrd4Tests.swift */; };
+		6F7C8C951ACA107300478943 /* DSC_0397 Kopie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C8C941ACA107300478943 /* DSC_0397 Kopie.jpg */; };
+		6F7C8C971ACA107900478943 /* DSC_0377.2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F7C8C961ACA107900478943 /* DSC_0377.2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6F7C8C841ACA102C00478943 /* Postksrd4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Postksrd4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F7C8C891ACA102C00478943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F7C8C8A1ACA102C00478943 /* Postksrd4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postksrd4Tests.swift; sourceTree = "<group>"; };
+		6F7C8C941ACA107300478943 /* DSC_0397 Kopie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "DSC_0397 Kopie.jpg"; sourceTree = "<group>"; };
+		6F7C8C961ACA107900478943 /* DSC_0377.2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DSC_0377.2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		6F7C8C721ACA102C00478943 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F7C8C961ACA107900478943 /* DSC_0377.2.jpg */,
+				6F7C8C941ACA107300478943 /* DSC_0397 Kopie.jpg */,
 				6F7C8C731ACA102C00478943 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +199,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F7C8C7A1ACA102C00478943 /* Main.storyboard in Resources */,
+				6F7C8C971ACA107900478943 /* DSC_0377.2.jpg in Resources */,
+				6F7C8C951ACA107300478943 /* DSC_0397 Kopie.jpg in Resources */,
 				6F7C8C7F1ACA102C00478943 /* LaunchScreen.xib in Resources */,
 				6F7C8C7C1ACA102C00478943 /* Images.xcassets in Resources */,
 			);
