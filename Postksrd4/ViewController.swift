@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enterNameTextField: UITextField!
     @IBOutlet weak var enterMassageTextField: UITextField!
     @IBOutlet weak var sendMailButton: UIButton!
+    // Dodatni komentar za testiranje GitHub-a
     
    
     
